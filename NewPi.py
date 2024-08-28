@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 
 # model = pickle.load(open("C:/Users/Kelvin/OneDrive/Documents/iiAfrica/Medical Price Prediction/random_forest_model.pkl",'rb'))
-model = pickle.load(open("C:/Users/Eugene/Desktop/iiAfrica/IIP_2024/ML/projects/G3/from_group/random_forest_model.pkl", 'rb'))
+model = pickle.load(open("C:/Users/Eugene/Desktop/iiAfrica/IIP_2024/ML/projects/G3/from_group/random_forest_model.pkl/", 'rb'))
 
 # categorical features
 categorical_features = {
