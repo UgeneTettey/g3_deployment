@@ -26,7 +26,7 @@ def main():
     input_data = {}
 
     #input variables
-    input_data['age'] = st.sidebar.number_input("Age", step=1)
+    input_data['age'] = st.sidebar.number_input("Age", min_value=1, step=1)
     input_data['bmi'] = st.sidebar.number_input("BMI")
     input_data['sex'] = st.sidebar.selectbox("Gender", options=categorical_features['sex'])
     input_data['children'] = st.sidebar.number_input("Number of children", step=1)
